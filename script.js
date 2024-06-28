@@ -87,9 +87,9 @@ window.addEventListener('load', () => {
 
         // Draw the logo in the bottom right corner
         if (logoImage.src) {
-            const logoWidth = 100;
+            const logoWidth = 200;
             const logoHeight = (logoImage.height / logoImage.width) * logoWidth;
-            ctx.drawImage(logoImage, canvas.width - logoWidth - 15, canvas.height - logoHeight - 15, logoWidth, logoHeight);
+            ctx.drawImage(logoImage, canvas.width - logoWidth - 10, canvas.height - logoHeight - 10, logoWidth, logoHeight);
         }
     }
 
